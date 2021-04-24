@@ -14,7 +14,7 @@
 }
 
 /****************************************/
-/* SETS THE BACKGROUND COLOR FOR THE WEBSITE */
+/* SETS THE BACKGROUND STYLING FOR THE WEBSITE AND HEADER */
 /****************************************/
 
 body {
@@ -29,7 +29,7 @@ body {
 }
 
 /****************************************/
-/* FOR HEADER LOGO */
+/* TEXT STYLE FOR THE HEADER LOGO */
 /****************************************/
 
 #logo-font {
@@ -67,6 +67,9 @@ body {
     text-decoration: none;
 }
 
+#header a:hover {
+    color: #7e7e7e;
+}
 
 /****************************************/
 /* WEBSITE COVER IMAGE */
