@@ -2,6 +2,8 @@
 /* IDs used in locations where the item is used in a single location such as the header logo */
 /* Classes used in locations where the item is used more than once such as img-float-left */
 /* Some items were renamed to be more specific such as #gray-logo-text */
+/* Images compressed to decreae load times */
+/* Modified background color to decrease contrast ratio */
 
 /****************************************/
 /* UNIVERSAL */
@@ -38,7 +40,7 @@ body {
 }
 
 #gray-logo-text {
-    color: #7e7e7e;
+    color: #c2c2c2;
 }
 
 /****************************************/
@@ -134,7 +136,7 @@ body {
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+    background-color: #0072bb;
 }
 
 .benefits {
